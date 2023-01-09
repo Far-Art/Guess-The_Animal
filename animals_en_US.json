@@ -1,0 +1,47 @@
+{
+  "root" : {
+    "value" : "Is it a mammal?",
+    "left" : {
+      "value" : "Is it giant?",
+      "left" : {
+        "value" : "Is it living on corals?",
+        "left" : {
+          "value" : "a shark"
+        },
+        "right" : {
+          "value" : "a plankton"
+        }
+      },
+      "right" : {
+        "value" : "a whale"
+      }
+    },
+    "right" : {
+      "value" : "Is it living in the forest?",
+      "left" : {
+        "value" : "Can it climb tree?",
+        "left" : {
+          "value" : "a dog"
+        },
+        "right" : {
+          "value" : "a cat"
+        }
+      },
+      "right" : {
+        "value" : "Is it a shy animal?",
+        "left" : {
+          "value" : "a wolf"
+        },
+        "right" : {
+          "value" : "Does it have a long bushy tail?",
+          "left" : {
+            "value" : "a hare"
+          },
+          "right" : {
+            "value" : "a fox"
+          }
+        }
+      }
+    }
+  }
+}
